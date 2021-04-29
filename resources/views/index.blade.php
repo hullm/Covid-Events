@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
+@extends('layouts.layout')
 
-    </head>
-    <body class="antialiased">
-        Hello World
-    </body>
-</html>
+@section('content')
+Hello World
+@endsection
