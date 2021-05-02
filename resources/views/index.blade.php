@@ -1,5 +1,6 @@
 @extends('layouts.layout')
 
 @section('content')
-Hello World
+<h1>Welcome to the Events Page</h1>
+<div><a href="/registration/create">Register for Event</a></div>
 @endsection
